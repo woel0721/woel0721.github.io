@@ -1,0 +1,24 @@
+/*侧边卡片的透明度 */
+:root {
+  --card-bg: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] {
+  --card-bg: rgba(255, 255, 255, 0.2);
+}
+
+/* 默认（白天模式） */
+body {
+  background-color: white;
+  color: black;
+}
+
+[data-theme="dark"] body {
+  background-color: #121212;
+  color: white;
+}
+
+.loading-img {
+  background: url(https://9ed13c84.woel-cloudflare-imgbed.pages.dev/file/Sakura_no_Uta/1763718949374_shizuku1.webp) no-repeat center center;
+  background-size: cover;
+}
